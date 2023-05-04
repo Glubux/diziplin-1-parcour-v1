@@ -1,0 +1,19 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="bP]]3Jz[-VrGL_6g)YV(">strip</variable></variables><block type="device_forever" id="#qtZBsEa9:twEKjhAg7c" x="0" y="0"><statement name="HANDLER"><block type="controls_if" id="I:B#ttepDbGWU~h~HW*m"><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_operation" id="|+issbbIE0+iM;xXF(lG"><field name="OP">AND</field><value name="A"><block type="logic_compare" id="`1HgLclUTBqng-IHx?-k"><field name="OP">EQ</field><value name="A"><shadow type="math_number" disabled="true"><field name="NUM">0</field></shadow><block type="read_Patrol" id="/{;i3fM8l|C`(3taFb3D"><field name="patrol">maqueen.Patrol.PatrolLeft</field></block></value><value name="B"><shadow type="math_number" id="+D7,V@{9s?()AM;Dy;Mr"><field name="NUM">1</field></shadow></value></block></value><value name="B"><block type="logic_compare" id="U(=HAIu-d8!2Pk8,.2r1"><field name="OP">EQ</field><value name="A"><shadow type="math_number" disabled="true"><field name="NUM">0</field></shadow><block type="read_Patrol" id="e?%K)v{tq+hJ7@A^xAF."><field name="patrol">maqueen.Patrol.PatrolRight</field></block></value><value name="B"><shadow type="math_number" id="jo^0Ja,_]vQA3,3yP185"><field name="NUM">1</field></shadow></value></block></value></block></value><statement name="DO0"><block type="device_show_leds" id="ts?[n9Vgx/j{*;wZYCK5"><field name="LEDS">`
+        # . . . # 
+        # . . . # 
+        # . . . # 
+        # . . . # 
+        # . . . #
+        `</field></block></statement><statement name="ELSE"><block type="controls_if" id="FfTccr9$=e/WTaH|HGSR"><mutation elseif="1"></mutation><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="=TIyAy`hz??~+%@Tw6o*"><field name="OP">EQ</field><value name="A"><shadow type="math_number" disabled="true"><field name="NUM">0</field></shadow><block type="read_Patrol" id="SHPl@V9NqO+ilxK%bD65"><field name="patrol">maqueen.Patrol.PatrolRight</field></block></value><value name="B"><shadow type="math_number" id="[y8N0g$HcQFQg=((76Jm"><field name="NUM">0</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="CSOGV|.#!XmvT|(6V-JP"><field name="LEDS">`
+        . . . . # 
+        . . . . # 
+        . . . . # 
+        . . . . # 
+        . . . . #
+        `</field></block></statement><value name="IF1"><block type="logic_compare" id="4)o:A6Vf,%!qtg2=v^zW"><field name="OP">EQ</field><value name="A"><shadow type="math_number" disabled="true"><field name="NUM">0</field></shadow><block type="read_Patrol" id="Pae(]0[k99e?PA7e(ul^"><field name="patrol">maqueen.Patrol.PatrolLeft</field></block></value><value name="B"><shadow type="math_number" id="[(~bT[u4MDL~[X[wUjX6"><field name="NUM">0</field></shadow></value></block></value><statement name="DO1"><block type="device_show_leds" id=";hNJwcj[}ey?KrDl|#gO"><field name="LEDS">`
+        # . . . . 
+        # . . . . 
+        # . . . . 
+        # . . . . 
+        # . . . .
+        `</field></block></statement></block></statement></block></statement></block></xml>
